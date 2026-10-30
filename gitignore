@@ -1,0 +1,7 @@
+# Data (downloaded from Kaggle)
+data/
+manuscript_analysis_files/
+*.h5
+
+# Notebook outputs
+.ipynb_checkpoints/
