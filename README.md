@@ -5,7 +5,7 @@ This repository has the analysis code for Makkawi et al. (2026), a study of how 
 
 **Usage**
 
-This notebook is the downstream step of the SITE pipeline. Run the SITE Image_Processing_and_Feature_Extraction and SITE Analysis_pipeline notebooks first to produce the ROI .h5 files from a .nd2 file, or download the processed .h5 files from Kaggle: [].
+This notebook is the downstream step of the SITE pipeline. Run the SITE Image_Processing_and_Feature_Extraction and SITE Analysis_pipeline notebooks first to produce the ROI .h5 files from a .nd2 file, or download the processed .h5 files from Kaggle, along with analysis files containing states and clusters used in the paper : [https://www.kaggle.com/datasets/rawanmakkawi/site-analysis-os17-datasets/data#].
 
 **References**
 
