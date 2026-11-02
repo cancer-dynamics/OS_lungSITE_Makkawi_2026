@@ -3,6 +3,8 @@
 
 This repository has the analysis code for Makkawi et al. (2026), a study of how osteosarcoma (OS17) cells in lung tissue respond to MCL1 inhibitor treatment. The analysis uses imaging data obtained from Lung-SITE (Serial Imaging of the Tumor and microEnvironment) to quantify spatiotemporal single-cell ERK activity, Fra-1 reporter expression, contacts within the microenvironment, and cell death in response to treatment. It shows how ERK signaling, contact niche states and neighborhood deaths (Nd) relate to cell fate, and builds a Markov model of cell state and death that is used to simulate ERK inhibition in silico.
 
+<img width="1833" height="646" alt="Figure 7 H" src="https://github.com/user-attachments/assets/b512d835-b8bb-465d-94a1-883bf2586723" />
+
 **Usage**
 
 This notebook is the downstream step of the SITE pipeline. Run the SITE Image_Processing_and_Feature_Extraction and SITE Analysis_pipeline notebooks first to produce the ROI .h5 files from a .nd2 file, or download the processed .h5 files from Kaggle, along with analysis files containing states and clusters used in the paper : [https://www.kaggle.com/datasets/rawanmakkawi/site-analysis-os17-datasets/data#].
